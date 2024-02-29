@@ -2,7 +2,9 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 a {
   color: #00B7FF;
 }
