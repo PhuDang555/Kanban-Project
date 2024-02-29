@@ -1,5 +1,7 @@
 import axiosClient from './axiosClient'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const sectionApi = {
   create: (boardId) => axiosClient.post(`boards/${boardId}/sections`),
   update: (boardId, sectionId, params) => axiosClient.put(
