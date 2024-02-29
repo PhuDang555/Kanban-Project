@@ -1,7 +1,9 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const { schemaOptions } = require('./modelOptions')
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const sectionSchema = new Schema({
   board: {
     type: Schema.Types.ObjectId,
