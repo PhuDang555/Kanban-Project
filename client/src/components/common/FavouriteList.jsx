@@ -5,7 +5,9 @@ import { useParams, Link } from 'react-router-dom'
 import boardApi from '../../api/boardApi'
 import { setFavouriteList } from '../../redux/features/favouriteSlice'
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const FavouriteList = () => {
   const dispatch = useDispatch()
   const list = useSelector((state) => state.favourites.value)
