@@ -1,7 +1,9 @@
 const User = require('../models/user')
 const CryptoJS = require('crypto-js')
 const jsonwebtoken = require('jsonwebtoken')
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 exports.register = async (req, res) => {
   const { password } = req.body
   try {
