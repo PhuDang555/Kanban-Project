@@ -1,5 +1,7 @@
 import { Box, CircularProgress } from '@mui/material'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const Loading = props => {
   return (
     <Box sx={{
