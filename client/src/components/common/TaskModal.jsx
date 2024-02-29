@@ -7,7 +7,9 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
 import taskApi from '../../api/taskApi'
 
 import '../../css/custom-editor.css'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const modalStyle = {
   outline: 'none',
   position: 'absolute',
