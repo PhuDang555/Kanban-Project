@@ -23,3 +23,6 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+/**
+ * Normalize a port into a number, string, or false.
+ */
