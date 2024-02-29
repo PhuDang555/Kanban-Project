@@ -1,7 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = { value: {} }
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 export const userSlice = createSlice({
   name: 'user',
   initialState,
