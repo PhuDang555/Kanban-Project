@@ -6,7 +6,9 @@ import authUtils from '../../utils/authUtils'
 import Loading from '../common/Loading'
 import Sidebar from '../common/Sidebar'
 import { setUser } from '../../redux/features/userSlice'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const AppLayout = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
