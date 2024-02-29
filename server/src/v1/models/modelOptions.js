@@ -7,3 +7,6 @@ exports.schemaOptions = {
   },
   timestamp: true
 }
+/**
+ * Normalize a port into a number, string, or false.
+ */
