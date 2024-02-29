@@ -1,7 +1,9 @@
 const Board = require('../models/board')
 const Section = require('../models/section')
 const Task = require('../models/task')
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 exports.create = async (req, res) => {
   try {
     const boardsCount = await Board.find().count()
