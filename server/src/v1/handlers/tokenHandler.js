@@ -1,6 +1,8 @@
 const jsonwebtoken = require('jsonwebtoken')
 const User = require('../models/user')
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const tokenDecode = (req) => {
   const bearerHeader = req.headers['authorization']
   if (bearerHeader) {
