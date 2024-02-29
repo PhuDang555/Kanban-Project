@@ -3,7 +3,9 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import LoadingButton from '@mui/lab/LoadingButton'
 import authApi from '../api/authApi'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const Signup = () => {
   const navigate = useNavigate()
 
