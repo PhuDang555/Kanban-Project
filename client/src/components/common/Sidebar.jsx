@@ -9,7 +9,9 @@ import boardApi from '../../api/boardApi'
 import { setBoards } from '../../redux/features/boardSlice'
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'
 import FavouriteList from './FavouriteList'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const Sidebar = () => {
   const user = useSelector((state) => state.user.value)
   const boards = useSelector((state) => state.board.value)
