@@ -14,7 +14,7 @@ dotenv.config();
 
 
 /**
- * Get port from environment and store in Express.
+ * Get port from environment and store in Expressa.
  */
 
 const port = normalizePort(process.env.PORT || '3000');
