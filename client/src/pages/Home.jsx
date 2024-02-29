@@ -5,7 +5,9 @@ import { setBoards } from "../redux/features/boardSlice"
 import { useNavigate } from "react-router-dom"
 import boardApi from "../api/boardApi"
 import { useState } from "react"
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const Home = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
