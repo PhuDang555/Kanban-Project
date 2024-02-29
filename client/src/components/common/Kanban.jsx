@@ -6,7 +6,9 @@ import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined'
 import sectionApi from '../../api/sectionApi'
 import taskApi from '../../api/taskApi'
 import TaskModal from './TaskModal'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 let timer
 const timeout = 500
 
