@@ -13,7 +13,9 @@ import { setFavouriteList } from '../redux/features/favouriteSlice'
 
 let timer
 const timeout = 500
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const Board = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
