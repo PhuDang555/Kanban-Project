@@ -1,5 +1,7 @@
 import authApi from "../api/authApi"
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const authUtils = {
   isAuthenticated: async () => {
     const token = localStorage.getItem('token')
