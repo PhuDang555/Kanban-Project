@@ -3,7 +3,9 @@
   border: none;
   outline: none;
 }
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 .ck.ck-editor__main>.ck-editor__editable.ck-focused {
   border: none;
 }
