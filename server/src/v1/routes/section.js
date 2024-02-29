@@ -3,7 +3,9 @@ const { param } = require('express-validator')
 const tokenHandler = require('../handlers/tokenHandler')
 const sectionController = require('../controllers/section')
 const validation = require('../handlers/validation')
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 router.post(
   '/',
   param('boardId').custom(value => {
