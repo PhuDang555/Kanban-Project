@@ -1,5 +1,7 @@
 import axiosClient from './axiosClient'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const boardApi = {
   create: () => axiosClient.post('boards'),
   getAll: () => axiosClient.get('boards'),
