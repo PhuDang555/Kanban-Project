@@ -7,7 +7,9 @@ import 'emoji-mart/css/emoji-mart.css'
 const EmojiPicker = props => {
   const [selectedEmoji, setSelectedEmoji] = useState()
   const [isShowPicker, setIsShowPicker] = useState(false)
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
   useEffect(() => {
     setSelectedEmoji(props.icon)
   }, [props.icon])
