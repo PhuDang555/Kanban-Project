@@ -4,7 +4,9 @@ import { Outlet, useNavigate } from 'react-router-dom'
 import authUtils from '../../utils/authUtils'
 import Loading from '../common/Loading'
 import assets from '../../assets'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 const AuthLayout = () => {
   const navigate = useNavigate()
   const [loading, setLoading] = useState(true)
