@@ -12,7 +12,9 @@ import Home from './pages/Home'
 import Board from './pages/Board'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 function App() {
   const theme = createTheme({
     palette: { mode: 'dark' }
