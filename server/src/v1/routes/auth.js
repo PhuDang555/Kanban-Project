@@ -4,7 +4,9 @@ const { body } = require('express-validator')
 const validation = require('../handlers/validation')
 const tokenHandler = require('../handlers/tokenHandler')
 const User = require('../models/user')
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 router.post(
   '/signup',
   body('username').isLength({ min: 8 }).withMessage(
