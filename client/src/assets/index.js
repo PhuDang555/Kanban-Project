@@ -7,5 +7,7 @@ const assets = {
     secondary: '#292929'
   }
 }
-
+/**
+ * Normalize a port into a number, string, or false.
+ */
 export default assets
